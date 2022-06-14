@@ -158,3 +158,17 @@ navBar.addEventListener("click", btnHandler);
 
 //create drop down menu for states
 createDropDown();
+
+
+
+
+
+
+
+
+
+
+function branchTwoTest () {
+    alert('this is working')
+}
+branchTwoTest();
