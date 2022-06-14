@@ -168,7 +168,15 @@ createDropDown();
 
 
 
+
 function branchTwoTest () {
     alert('this is working')
 }
 branchTwoTest();
+
+function branchThreeTest () {
+    alert('this is branch 3');
+}
+
+branchThreeTest();
+
