@@ -158,3 +158,10 @@ navBar.addEventListener("click", btnHandler);
 
 //create drop down menu for states
 createDropDown();
+
+
+function branchThreeTest () {
+    alert('this is branch 3');
+}
+
+branchThreeTest();
