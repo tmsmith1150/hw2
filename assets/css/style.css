@@ -1,0 +1,17 @@
+
+.overflow{
+    height: 200px;
+}
+
+.drop-down-container{
+    display: inline;
+    position: relative;
+    bottom: 12px;
+}
+
+.hero {
+    background: url(https://linkedinheaders.com/wp-content/uploads/2018/02/tropical-beach-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

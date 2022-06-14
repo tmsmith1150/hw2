@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Hotel Weather</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
 </head>
-<body>
-    
 
+<body>
+
+    
+    <!--hero section-->
+    <section id="hero" class="hero has-background-black">
+        <div class="hero-body columns">
+            <div class="column">
+                <h1 class="title is-1 has-text-light">Hotel-Weather</h1>
+                <h3 class="subtitle is-3 has-text-light">Travel Smarter</h3>
+            </div>
+            <textarea class="column is-two-thirds box" id="user-search">
+            </textarea>
+
+            <!--submit button for search user input-->
+            <div class="drop-down-container"><select id="drop-down"></select></div>
+            <button type="submit" id="submit">submit</button>
+        </div>
+    </section>
+
+   <!--Columns for history, hotels, weather-->
+    <section class="section has-background-white">  
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-fifth">
+                    <div class="notification">
+                        <h4 class="title is-4">History</h4>
+                        <p class="content">
+                            
+                         </p>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="notification">
+                        <h4 class=" title is-4">Hotels</h4>
+                        <section id="hotel-list" class="content"> 
+                        </section>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="weather" class="notification">
+                        <h4 class=" title is-4">Weather</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer has-background-info">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Hotel-Weather</strong> by <a href="https://github.com/RicardoKContreras/Hotel-Weather">Hotel-Weather Group</a>.
+            </p>
+        </div>
+    </footer>
 
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
